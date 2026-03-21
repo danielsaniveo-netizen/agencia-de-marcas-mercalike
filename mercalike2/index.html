@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protege tu Marca | Mercalike</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #224157 0%, #11212c 100%);
+        }
+    </style>
+</head>
+<body class="bg-white font-sans antialiased text-[#4e4d48]">
+
+    <nav class="bg-white shadow border-b border-gray-100 p-4 sticky top-0 z-50 relative">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img src="img/logomercalike.jpg" alt="Mercalike" class="h-12 md:h-14 object-contain rounded shadow-sm">
+            </div>
+            <div class="text-sm text-[#4e4d48] font-medium hidden md:block">Agencia de mercadotecnia</div>
+            <a href="https://wa.me/523346403793?text=Hola,%20me%20interesa%20registrar%20mi%20marca" target="_blank" class="bg-[#f9ba12] hover:bg-[#e0a810] text-[#000000] font-bold py-2 px-6 rounded-lg shadow transition">
+                ¡Contáctanos!
+            </a>
+        </div>
+    </nav>
+
+    <header id="hero-section" class="gradient-bg text-white pb-16 pt-12 px-6 relative overflow-hidden">
+        <canvas id="hero-canvas" class="absolute inset-0 w-full h-full z-0"></canvas>
+
+        <div class="max-w-4xl mx-auto text-center space-y-4 relative z-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-white drop-shadow-lg">
+                Protege el activo más importante de tu empresa:
+            </h1>
+            <p class="text-2xl md:text-3xl font-black text-[#f9ba12] mt-2 drop-shadow-md">
+                Registra tu marca desde $4,899.00 mxn más IVA.
+            </p>
+            <p class="text-base text-white/90 max-w-2xl mx-auto font-medium mt-4">
+                Tu nombre y logo son tu mayor activo. Si no eres el dueño legal ante el IMPI, todo el esfuerzo de años de tu negocio está en riesgo constante de perderse.
+            </p>
+            
+            <div class="bg-black/40 p-6 rounded-xl border border-white/20 max-w-xl mx-auto mt-6 backdrop-blur-sm flex flex-col items-center">
+                <p class="text-gray-200 text-lg mb-1">Estudio de Viabilidad de Marca: <span class="line-through text-gray-500 font-bold">$570 MXN</span></p>
+                <p class="text-2xl font-black text-[#f9ba12] animate-pulse mb-3">🔥 ¡SIN COSTO POR TIEMPO LIMITADO!</p>
+                <p class="text-xs text-white/80 mb-5">Envíanos por WhatsApp el nombre de tu marca, logotipo y una descripción de tus servicios.</p>
+                
+                <a href="https://wa.me/523346403793?text=Hola,%20quiero%20mi%20estudio%20de%20viabilidad%20sin%20costo" target="_blank" class="bg-[#f9ba12] hover:bg-[#e0a810] text-[#000000] font-bold py-3 px-8 rounded-xl shadow-[0_0_20px_rgba(249,186,18,0.4)] transform transition hover:scale-105 text-base flex items-center justify-center w-fit">
+                    <i class="fab fa-whatsapp text-xl mr-2"></i> Solicitar Estudio Sin Costo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 px-6 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold leading-tight text-[#000000]">⚠️ ¿Por qué debes registrarla y en qué riesgos incurres?</h2>
+            <p class="text-base text-[#4e4d48] mt-3 max-w-2xl mx-auto">Si no tienes el título de propiedad de tu marca, te enfrentas a estas realidades:</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-md border-t-4 border-red-500">
+                <i class="fas fa-user-ninja text-3xl text-red-500 mb-3"></i>
+                <h3 class="text-lg font-bold mb-2 text-[#000000]">Alguien más la registra</h3>
+                <p class="text-sm text-[#4e4d48]">Si un tercero registra tu nombre primero, legalmente él es el dueño y puede obligarte a dejar de usarlo de inmediato.</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-md border-t-4 border-red-500">
+                <i class="fas fa-money-bill-wave text-3xl text-red-500 mb-3"></i>
+                <h3 class="text-lg font-bold mb-2 text-[#000000]">Inversión Perdida</h3>
+                <p class="text-sm text-[#4e4d48]">Todo el dinero en publicidad, fachadas, uniformes y redes se pierde si te obligan a cambiar de nombre por demanda.</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-md border-t-4 border-red-500">
+                <i class="fas fa-gavel text-3xl text-red-500 mb-3"></i>
+                <h3 class="text-lg font-bold mb-2 text-[#000000]">Demandas y Multas</h3>
+                <p class="text-sm text-[#4e4d48]">El titular legítimo puede reclamar daños y perjuicios, resultando en multas económicas severas para tu bolsillo.</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-2xl shadow-md border-t-4 border-red-500">
+                <i class="fas fa-ban text-3xl text-red-500 mb-3"></i>
+                <h3 class="text-lg font-bold mb-2 text-[#000000]">Cero Expansión</h3>
+                <p class="text-sm text-[#4e4d48]">Sin marca registrada, no puedes vender franquicias, licencias ni protegerte en plataformas como Amazon.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#224157] py-16 px-6 text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#f9ba12]">🌟 Beneficios de registrar con nosotros</h2>
+                <p class="text-base text-white/80 mt-3 max-w-2xl mx-auto">Nuestro servicio no es un simple trámite; es una estrategia integral de blindaje.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white/10 p-5 rounded-xl border border-white/20">
+                    <i class="fas fa-users-cog text-2xl text-[#f9ba12] mb-2"></i>
+                    <h4 class="font-bold text-base mb-1">Metodología de Expertos</h4>
+                    <p class="text-xs text-white/70">Trabajamos con un equipo combinado de abogados y mercadólogos con años de experiencia.</p>
+                </div>
+                <div class="bg-white/10 p-5 rounded-xl border border-white/20">
+                    <i class="fas fa-search-plus text-2xl text-[#f9ba12] mb-2"></i>
+                    <h4 class="font-bold text-base mb-1">Valoración Multidimensional</h4>
+                    <p class="text-xs text-white/70">Analizamos el nombre, diseño, trasfondo y significado para asegurar que no haya conflictos.</p>
+                </div>
+                <div class="bg-white/10 p-5 rounded-xl border border-white/20">
+                    <i class="fas fa-robot text-2xl text-[#f9ba12] mb-2"></i>
+                    <h4 class="font-bold text-base mb-1">Tecnología de Punta</h4>
+                    <p class="text-xs text-white/70">Utilizamos IA oficial del IMPI para descartar coincidencias y asegurar hasta un 99% de viabilidad.</p>
+                </div>
+                <div class="bg-white/10 p-5 rounded-xl border border-white/20">
+                    <i class="fas fa-paint-brush text-2xl text-[#f9ba12] mb-2"></i>
+                    <h4 class="font-bold text-base mb-1">Rediseño de Logotipo</h4>
+                    <p class="text-xs text-white/70">Incluimos un rediseño funcional de tu logo (sin manual) si el actual tiene riesgos de rechazo.</p>
+                </div>
+                <div class="bg-white/10 p-5 rounded-xl border border-white/20">
+                    <i class="fas fa-chart-line text-2xl text-[#f9ba12] mb-2"></i>
+                    <h4 class="font-bold text-base mb-1">Diagnóstico Comercial</h4>
+                    <p class="text-xs text-white/70">Evaluamos tu estrategia de ventas actual y te damos recomendaciones para mejorarla.</p>
+                </div>
+                <div class="bg-white/10 p-5 rounded-xl border border-white/20">
+                    <i class="fas fa-file-signature text-2xl text-[#f9ba12] mb-2"></i>
+                    <h4 class="font-bold text-base mb-1">Declaración de Uso</h4>
+                    <p class="text-xs text-white/70">Este trámite obligatorio está incluido sin costo de honorarios (solo cubres cuota del IMPI).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-gray-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto space-y-10">
+            <div class="max-w-3xl mx-auto text-center space-y-6">
+                <h2 class="text-3xl font-bold text-[#000000]">🏆 Nuestra Autoridad y Casos de Éxito</h2>
+                <p class="text-base text-[#4e4d48]">¿Por qué confiar en nosotros? Tenemos la experiencia y la transparencia que otros no ofrecen. Estas marcas ya duermen tranquilas gracias a nuestra gestión.</p>
+                
+                <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-100 mt-4 text-left flex items-start gap-3">
+                    <i class="fas fa-info-circle text-2xl text-blue-500 mt-1"></i>
+                    <p class="text-[#4e4d48] font-medium text-xs">Verifica nuestros casos: Puedes entrar a la plataforma oficial de <strong>Marcanet (IMPI)</strong>, buscar el número de expediente y revisar el apartado de <strong>'Mandatario'</strong> para confirmar que en todos aparece el nombre de nuestro socio fundador.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/fisiknova.png" alt="Fisik Nova" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Fisik Nova <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2184519</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/lostresaguachiles.jpg" alt="Los Tres Aguachiles" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Aguachiles <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2298585</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/ironwolf.png" alt="Ironwolf" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Ironwolf <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2258423</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/captainpig.jpg" alt="Captain Pig" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Captain Pig <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2342773</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/bonfraga.jpg" alt="Bonfraga" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Bonfraga <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2338611</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/hnj.png" alt="HNJ Helmets" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">HNJ Helmets <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2545091</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/ecopisos.png" alt="Grupo Ecopisos" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Ecopisos <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2610028</span></p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden transform transition hover:-translate-y-1">
+                    <div class="h-32 bg-gray-100 flex items-center justify-center p-3">
+                        <img src="img/topseller.jpg" alt="Importadora Top Seller" class="max-h-full max-w-full object-contain mix-blend-multiply">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h3 class="text-base font-bold text-[#000000] mb-1">Top Seller <i class="fas fa-check-circle text-green-500 ml-1"></i></h3>
+                        <p class="text-xs text-[#4e4d48]">IMPI: <span class="font-bold text-[#224157]">2887329</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="https://acervomarcas.impi.gob.mx:8181/marcanet/vistas/common/datos/bsqFoneticaCompleta.pgi" target="_blank" class="inline-block bg-[#224157] hover:bg-[#11212c] text-white font-bold py-2 px-6 rounded-lg transition shadow">
+                    <i class="fas fa-search mr-2"></i> Buscar en el IMPI Oficial
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-[#000000]">🔄 ¿Cuál es el proceso?</h2>
+            <p class="text-base text-[#4e4d48] mt-2">Te acompañamos de principio a fin.</p>
+        </div>
+
+        <div class="space-y-8">
+            <div class="bg-white p-6 rounded-xl shadow-md border-l-8 border-[#f9ba12]">
+                <h3 class="text-xl font-bold text-[#224157] mb-3">Etapa Interna de la Agencia</h3>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-arrow-right text-[#f9ba12] mt-1"></i>
+                        <div><strong>Diagnóstico y Estrategia:</strong> Analizamos objetivos y viabilidad. Hacemos estudio fonético y gráfico para evitar coincidencias.</div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fas fa-arrow-right text-[#f9ba12] mt-1"></i>
+                        <div><strong>Preparación de Registro:</strong> Analizamos el archivo previo para tu autorización, estudiamos la clase correcta y describimos detalladamente tus actividades.</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md border-l-8 border-[#224157]">
+                <h3 class="text-xl font-bold text-[#224157] mb-3">Etapa ante el IMPI (Aprox. 6 Meses)</h3>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+                    <div class="p-2 bg-gray-50 rounded border border-gray-100"><strong class="text-[#224157]">Mes 1:</strong> Ingreso formal a la plataforma del IMPI.</div>
+                    <div class="p-2 bg-gray-50 rounded border border-gray-100"><strong class="text-[#224157]">Mes 2:</strong> Revisión exhaustiva buscando conflictos.</div>
+                    <div class="p-2 bg-gray-50 rounded border border-gray-100"><strong class="text-[#224157]">Mes 3:</strong> Espera de análisis fonético oficial.</div>
+                    <div class="p-2 bg-gray-50 rounded border border-gray-100"><strong class="text-[#224157]">Mes 4:</strong> Notificación de "anterioridades" si las hay.</div>
+                    <div class="p-2 bg-gray-50 rounded border border-gray-100"><strong class="text-[#224157]">Mes 5:</strong> Ventana habitual de autorización.</div>
+                    <div class="p-2 bg-gray-50 rounded border border-gray-100"><strong class="text-[#224157]">Mes 6:</strong> Plazo legal máximo para resolución.</div>
+                </div>
+                <div class="mt-4 p-3 bg-green-50 text-green-800 rounded-lg font-bold text-sm text-center border border-green-200">
+                    <i class="fas fa-award mr-2"></i> Finalización: ¡Te enviamos tu Título de Registro!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-100 py-16 px-6 border-y border-gray-200">
+        <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 bg-[#f9ba12] text-black font-bold px-4 py-1 rounded-bl-xl text-sm">Garantía Total</div>
+            <h2 class="text-2xl font-bold text-[#000000] mb-4"><i class="fas fa-shield-alt text-[#224157] mr-2"></i> Nuestra Garantía de Hierro</h2>
+            <p class="text-sm text-[#4e4d48] mb-5">Si el registro no es aceptado inicialmente, <strong>no nos damos por vencidos.</strong></p>
+            
+            <ul class="space-y-3 text-sm">
+                <li class="flex items-start gap-2">
+                    <i class="fas fa-check text-green-500 mt-1"></i>
+                    <span><strong>Resolución de Conflictos:</strong> Gestionamos querellas internas o con terceros.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                    <i class="fas fa-check text-green-500 mt-1"></i>
+                    <span><strong>Defensa Legal SIN COSTO:</strong> Agotaremos recursos legales para lograr la autorización sin honorarios extras.</span>
+                </li>
+                <li class="flex items-start gap-2 bg-yellow-50 p-3 rounded-lg mt-3 border border-yellow-200">
+                    <i class="fas fa-star text-[#f9ba12] mt-1"></i>
+                    <span><strong>Garantía Total:</strong> Si no se concede, te ofrecemos registrar otra marca o variante <strong>sin costo de honorarios</strong> (solo cubres cuota IMPI).</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-[#000000]">💰 Opciones de Servicio y Pago</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white border border-gray-200 rounded-xl p-6 text-center shadow-md transition">
+                <i class="fas fa-graduation-cap text-3xl text-[#224157] mb-3"></i>
+                <h3 class="text-xl font-bold mb-2">Curso Especializado</h3>
+                <p class="text-sm text-gray-600 mb-5">Aprende el proceso con nuestra guía paso a paso, ideal para emprendedores.</p>
+                <span class="block bg-gray-200 text-gray-500 font-bold py-2 rounded-lg text-sm cursor-not-allowed">Próximamente</span>
+            </div>
+            
+            <div class="bg-white border-2 border-[#f9ba12] rounded-xl p-6 text-center shadow-xl transform scale-105 relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#f9ba12] text-black px-3 py-1 rounded-full font-bold text-xs">RECOMENDADO</div>
+                <i class="fas fa-laptop text-3xl text-[#f9ba12] mb-3"></i>
+                <h3 class="text-xl font-bold mb-2">Asesoría Virtual</h3>
+                <p class="text-lg font-black text-[#224157] mb-1">Desde: $4,899.00 mxn <span class="text-sm font-normal text-gray-500">+ IVA</span></p>
+                <p class="text-sm text-gray-600 mb-5">La opción más económica para registros rápidos y directos.</p>
+                <a href="https://wa.me/523346403793?text=Hola,%20me%20interesa%20la%20Asesoría%20Virtual" target="_blank" class="block bg-[#f9ba12] hover:bg-[#e0a810] text-[#000000] font-bold py-2 rounded-lg shadow text-sm">Elegir Virtual</a>
+            </div>
+            
+            <div class="bg-white border border-gray-200 rounded-xl p-6 text-center shadow-md hover:shadow-lg transition">
+                <i class="fas fa-crown text-3xl text-[#224157] mb-3"></i>
+                <h3 class="text-xl font-bold mb-2">Versión PRO</h3>
+                <p class="text-lg font-black text-[#224157] mb-1">Desde: $5,899.00 mxn <span class="text-sm font-normal text-gray-500">+ IVA</span></p>
+                <p class="text-xs text-red-500 font-bold mb-3">Solo dentro de la ZMG y alrededores.</p>
+                <p class="text-sm text-gray-600 mb-5">Incluye sesión presencial con expertos para seguimiento total.</p>
+                <a href="https://wa.me/523346403793?text=Hola,%20me%20interesa%20la%20Versión%20PRO" target="_blank" class="block bg-gray-100 hover:bg-gray-200 text-[#000000] font-bold py-2 rounded-lg text-sm">Elegir PRO</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-red-600 text-white py-12 px-6 text-center">
+        <div class="max-w-3xl mx-auto space-y-5">
+            <h2 class="text-3xl font-black uppercase tracking-wide text-yellow-300">🕒 ¡Oferta de Acción Rápida!</h2>
+            <p class="text-lg">Registra tu marca hoy antes de que acabe el tiempo.</p>
+            
+            <div class="flex justify-center gap-3 text-center py-4">
+                <div class="bg-black/30 p-3 rounded-lg min-w-[70px]">
+                    <span id="days" class="text-3xl font-bold">07</span><br><span class="text-[10px] uppercase">Días</span>
+                </div>
+                <div class="bg-black/30 p-3 rounded-lg min-w-[70px]">
+                    <span id="hours" class="text-3xl font-bold">23</span><br><span class="text-[10px] uppercase">Horas</span>
+                </div>
+                <div class="bg-black/30 p-3 rounded-lg min-w-[70px]">
+                    <span id="minutes" class="text-3xl font-bold">59</span><br><span class="text-[10px] uppercase">Min</span>
+                </div>
+                <div class="bg-black/30 p-3 rounded-lg min-w-[70px]">
+                    <span id="seconds" class="text-3xl font-bold">59</span><br><span class="text-[10px] uppercase">Seg</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-red-700 p-5 rounded-xl shadow-xl border-4 border-yellow-300 max-w-2xl mx-auto">
+                <h3 class="text-xl font-bold mb-3">Al contratar HOY obtienes:</h3>
+                <ul class="text-left space-y-2 font-semibold text-sm">
+                    <li><i class="fas fa-gift text-red-500 mr-2"></i> <strong>10% de Descuento</strong> (aplicable solo en registro virtual).</li>
+                    <li><i class="fas fa-gift text-red-500 mr-2"></i> <strong>3 Diseños Personalizados</strong> para vender más en Facebook Ads.</li>
+                </ul>
+            </div>
+            
+            <div class="mt-8">
+                <a href="https://wa.me/523346403793?text=Hola,%20quiero%20registrar%20mi%20marca%20y%20aprovechar%20la%20oferta" target="_blank" class="inline-block bg-[#f9ba12] hover:bg-[#e0a810] text-[#000000] font-bold py-3 px-8 rounded-full transition shadow-lg transform hover:scale-105">
+                    <i class="fab fa-whatsapp mr-2"></i> Quiero registrar mi marca
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+        <div class="bg-[#224157] text-white rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between shadow-xl">
+            <div class="md:w-2/3 mb-5 md:mb-0 space-y-3">
+                <h3 class="text-xl font-bold text-[#f9ba12]">🚀 Servicios Complementarios para Impulsar tu Negocio</h3>
+                <p class="text-sm text-white/80">Como agencia de mercadotecnia, no solo te protegemos, te hacemos crecer:</p>
+                <ul class="grid grid-cols-2 gap-2 text-sm font-medium">
+                    <li><i class="fas fa-check text-green-400 mr-2"></i> Diseño de páginas web</li>
+                    <li><i class="fas fa-check text-green-400 mr-2"></i> Ads (Facebook / Google)</li>
+                    <li><i class="fas fa-check text-green-400 mr-2"></i> Automatizaciones</li>
+                    <li><i class="fas fa-check text-green-400 mr-2"></i> Diseño gráfico</li>
+                </ul>
+            </div>
+            <div class="md:w-1/3 text-center">
+                <a href="https://wa.me/523346403793?text=Hola,%20quiero%20cotizar%20un%20paquete%20integral" target="_blank" class="bg-white text-[#224157] font-bold py-3 px-6 rounded-xl shadow-md hover:bg-gray-100 transition inline-block text-sm">Cotizar Paquete Integral</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-16 px-6">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-[#000000]">❓ Resolvemos todas tus dudas (FAQ)</h2>
+            </div>
+
+            <div class="space-y-3">
+                <details class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200 group">
+                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base list-none text-[#000000]">
+                        <span>¿Qué es el IMPI?</span>
+                        <span class="text-xl transition group-open:rotate-180 text-[#f9ba12]">+</span>
+                    </summary>
+                    <p class="text-[#4e4d48] pt-3 text-sm">Es el Instituto Mexicano de la Propiedad Industrial, la autoridad que regula y protege los derechos de propiedad industrial en México.</p>
+                </details>
+
+                <details class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200 group">
+                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base list-none text-[#000000]">
+                        <span>¿Qué son las marcas?</span>
+                        <span class="text-xl transition group-open:rotate-180 text-[#f9ba12]">+</span>
+                    </summary>
+                    <p class="text-[#4e4d48] pt-3 text-sm">Son los signos que distinguen tus productos o servicios de otros de su misma especie en el mercado.</p>
+                </details>
+
+                <details class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200 group">
+                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base list-none text-[#000000]">
+                        <span>¿Existen otras agencias o puedo hacerlo solo?</span>
+                        <span class="text-xl transition group-open:rotate-180 text-[#f9ba12]">+</span>
+                    </summary>
+                    <p class="text-[#4e4d48] pt-3 text-sm">Sí, pero nuestra metodología une derecho y marketing con IA para asegurar un 99% de éxito, algo que un trámite individual o con agencias sin experiencia no puede garantizar.</p>
+                </details>
+                
+                <details class="bg-gray-50 p-5 rounded-lg shadow-sm border border-gray-200 group">
+                    <summary class="flex items-center justify-between cursor-pointer font-bold text-base list-none text-[#000000]">
+                        <span>¿Debo "registrar" o "patentar" mi marca?</span>
+                        <span class="text-xl transition group-open:rotate-180 text-[#f9ba12]">+</span>
+                    </summary>
+                    <p class="text-[#4e4d48] pt-3 text-sm">El término correcto es <strong>Registrar</strong>. Las patentes protegen invenciones de productos/procesos. Los nombres y logos se registran.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="gradient-bg text-white py-20 px-6 text-center relative overflow-hidden">
+        <div class="max-w-2xl mx-auto space-y-6 z-10 relative">
+            <h2 class="text-4xl md:text-5xl font-bold leading-tight">No dejes tu futuro a la suerte</h2>
+            <p class="text-lg text-white/80">Reclama tu Estudio de Viabilidad SIN COSTO hoy mismo.</p>
+            
+            <div class="flex justify-center pt-6">
+                <a href="https://wa.me/523346403793?text=Hola,%20quiero%20mi%20estudio%20de%20viabilidad%20sin%20costo" target="_blank" class="bg-[#f9ba12] hover:bg-[#e0a810] text-[#000000] font-bold py-4 px-10 rounded-full shadow-2xl transform transition hover:scale-105 text-lg flex items-center justify-center">
+                    <i class="fab fa-whatsapp text-2xl mr-3"></i> Enviar Mensaje a WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="absolute left-10 top-10 w-24 h-24 bg-[#f9ba12]/30 rounded-full blur-3xl opacity-50"></div>
+    </section>
+
+    <footer class="bg-[#000000] text-gray-400 py-12 px-6 relative z-10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 items-center">
+            
+            <div class="flex flex-col items-center md:items-start space-y-3">
+                <img src="img/logomercalike.jpg" alt="Mercalike" class="h-16 object-contain rounded opacity-90 hover:opacity-100 transition">
+                <p class="text-xs text-gray-500 text-center md:text-left mt-2">Protegiendo el ADN de tu negocio con estrategias legales y comerciales de alto impacto.</p>
+            </div>
+            
+            <div class="text-sm space-y-3 text-center md:text-left">
+                <p><i class="fas fa-envelope mr-2 text-[#f9ba12]"></i> contacto.mercalike@gmail.com</p>
+                <p><i class="fab fa-whatsapp mr-2 text-[#f9ba12]"></i> 33 4640-3793</p>
+                <p><i class="fas fa-phone mr-2 text-[#f9ba12]"></i> 33 1825-5501</p>
+                <p><i class="fas fa-map-marker-alt mr-2 text-[#f9ba12]"></i> Mileto #824, Senderos del Valle, Jalisco.</p>
+            </div>
+
+            <div class="flex justify-center md:justify-end w-full">
+                <iframe src="https://maps.google.com/maps?q=Mileto%20%23824,%20Senderos%20del%20Valle,%20Jalisco&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="150" class="rounded-xl shadow-md border border-gray-800 max-w-[300px]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
+        <div class="text-center text-xs mt-10 border-t border-gray-800 pt-6">
+            <p>© 2026 Mercalike. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById('hero-canvas');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+
+        function initCanvas() {
+            const hero = document.getElementById('hero-section');
+            width = canvas.width = hero.offsetWidth;
+            height = canvas.height = hero.offsetHeight;
+        }
+        window.addEventListener('resize', initCanvas);
+
+        const loaders = [];
+        const numLoaders = 4; 
+
+        function resetLoader(l) {
+            l.x = Math.random() * width;
+            l.y = Math.random() * height;
+            l.radius = 20 + Math.random() * 25; 
+            l.progress = 0;
+            l.speed = 0.003 + Math.random() * 0.006;
+            l.state = 'loading';
+            l.alpha = 0;
+            l.successTimer = 0;
+            l.vx = (Math.random() - 0.5) * 0.2;
+            l.vy = (Math.random() - 0.5) * 0.2;
+        }
+
+        for (let i = 0; i < numLoaders; i++) {
+            let l = {};
+            resetLoader(l);
+            l.progress = Math.random() * 0.8;
+            loaders.push(l);
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, width, height);
+            loaders.forEach(l => {
+                l.x += l.vx;
+                l.y += l.vy;
+                if (l.state === 'loading' && l.alpha < 0.2) l.alpha += 0.01;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+
+                if (l.state === 'loading') {
+                    l.progress += l.speed;
+                    if (l.progress >= 1) {
+                        l.progress = 1; l.state = 'success'; l.alpha = 0.8;
+                    }
+                    ctx.font = `bold ${l.radius * 1.2}px sans-serif`;
+                    ctx.fillStyle = `rgba(255, 255, 255, ${l.alpha})`;
+                    ctx.shadowBlur = 0;
+                    ctx.fillText('R', l.x, l.y);
+                    ctx.beginPath();
+                    ctx.arc(l.x, l.y, l.radius * 1.3, -Math.PI / 2, (-Math.PI / 2) + (Math.PI * 2 * l.progress));
+                    ctx.strokeStyle = `rgba(255, 255, 255, ${l.alpha + 0.1})`;
+                    ctx.lineWidth = l.radius * 0.15;
+                    ctx.stroke();
+                } else if (l.state === 'success' || l.state === 'fading') {
+                    if (l.state === 'success') {
+                        l.successTimer++;
+                        if (l.successTimer > 80) l.state = 'fading';
+                    } else {
+                        l.alpha -= 0.02;
+                        if (l.alpha <= 0) resetLoader(l);
+                    }
+                    let r = 0, g = 255, b = 100;
+                    ctx.fillStyle = `rgba(${r}, ${g}, ${b}, ${l.alpha})`;
+                    ctx.shadowColor = `rgba(${r}, ${g}, ${b}, ${l.alpha})`;
+                    ctx.shadowBlur = 15;
+                    ctx.font = `bold ${l.radius * 1.2}px sans-serif`;
+                    ctx.fillText('R', l.x, l.y);
+                    ctx.beginPath();
+                    ctx.arc(l.x, l.y, l.radius * 1.3, 0, Math.PI * 2);
+                    ctx.strokeStyle = `rgba(${r}, ${g}, ${b}, ${l.alpha})`;
+                    ctx.lineWidth = l.radius * 0.15;
+                    ctx.stroke();
+                    ctx.font = `bold ${l.radius * 0.9}px sans-serif`;
+                    ctx.fillStyle = `rgba(255, 255, 255, ${l.alpha})`;
+                    ctx.shadowBlur = 10;
+                    ctx.fillText('✔', l.x + l.radius * 0.9, l.y + l.radius * 0.6);
+                }
+            });
+            requestAnimationFrame(draw);
+        }
+
+        function initTimer() {
+            let countDownDate = new Date().getTime() + (7 * 24 * 60 * 60 * 1000); 
+
+            setInterval(function() {
+                let now = new Date().getTime();
+                let distance = countDownDate - now;
+
+                let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("days").innerHTML = days < 10 ? "0" + days : days;
+                document.getElementById("hours").innerHTML = hours < 10 ? "0" + hours : hours;
+                document.getElementById("minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
+                document.getElementById("seconds").innerHTML = seconds < 10 ? "0" + seconds : seconds;
+            }, 1000);
+        }
+
+        window.onload = () => {
+            initCanvas();
+            draw();
+            initTimer();
+        };
+    </script>
+
+</body>
+</html>
